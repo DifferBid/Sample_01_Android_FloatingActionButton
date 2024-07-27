@@ -1,3 +1,4 @@
+
 package develop.differ.bid;
 
 import android.os.Bundle;
