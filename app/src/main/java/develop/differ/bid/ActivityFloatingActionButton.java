@@ -13,14 +13,14 @@ import androidx.drawerlayout.widget.DrawerLayout;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
-public class ActivityFloatingButton extends AppCompatActivity {
+public class ActivityFloatingActionButton extends AppCompatActivity {
 
     private DrawerLayout  drawerLayout;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_floating_button);
+        setContentView(R.layout.activity_floating_action_button);
 
         drawerLayout = findViewById(R.id.drawer_layout);
 
